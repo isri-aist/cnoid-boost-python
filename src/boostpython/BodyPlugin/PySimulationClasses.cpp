@@ -2,14 +2,14 @@
   @author Shin'ichiro Nakaoka
 */
 
-#include "../SimulatorItem.h"
-#include "../AISTSimulatorItem.h"
-#include "../SubSimulatorItem.h"
-#include "../GLVisionSimulatorItem.h"
-#include "../SimulationScriptItem.h"
-#include "../SimulationBar.h"
-#include "../BodyItem.h"
-#include "../SimpleControllerItem.h"
+#include <cnoid/SimulatorItem>
+#include <cnoid/AISTSimulatorItem>
+#include <cnoid/SubSimulatorItem>
+#include <cnoid/GLVisionSimulatorItem>
+#include <cnoid/SimulationScriptItem>
+#include <cnoid/SimulationBar>
+#include <cnoid/BodyItem>
+#include <cnoid/SimpleControllerItem>
 #include <cnoid/PyBase>
 
 using namespace boost::python;
